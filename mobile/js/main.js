@@ -36,14 +36,14 @@ $("#goods-title").click(function() {
 $("#goods-title li").click(function(event) {
 	event.stopPropagation()
 })
-var mySwiper = new Swiper('#banner-swiper', {
+var bannerSwiper = new Swiper('#banner-swiper', {
 	autoplay: 5000,
 	autoplayDisableOnInteraction : false,
 	loop : true,
 	prevButton:'#banner-swiper-button-prev',
 	nextButton:'#banner-swiper-button-next',
 })
-var mySwiper = new Swiper('#new-center-swiper', {
+var newsSwiper = new Swiper('#new-center-swiper', {
 	autoplay: 5000,
 	autoplayDisableOnInteraction : false,
 	loop : true,
