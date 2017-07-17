@@ -1,7 +1,7 @@
 $("#login .login-btn").click(function() {
-	$(this).fadeOut();
-	$(this).siblings().fadeIn()
-	if ($("#login-panel").is(":hidden")) {
+	$(this).stop().fadeOut();
+	$(this).siblings().stop().fadeIn()
+	if ($(this).is(":hidden")) {
 		$("#login-panel").slideDown("fast")
 	} else {
 		$("#login-panel").slideUp("fast")
