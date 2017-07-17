@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>home</title>
+	<link type="text/css" rel="stylesheet" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" href="css/main.css" >
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+ 
+</head>
+<body>
+<!-- top -->
+ <div class="top_w">
+ 	<div class="top comwith_t">
+ 		<div class="logo_w fl"><img src="./images/logo.png" alt=""></div>
+ 		<div class="phone fl">
+ 			<span><i><img src="./images/phone.01.png" alt=""></i><em>021-65975817</em></span>
+ 		</div>
+ 		<div class="login_w fl"><span>登录</span><span>注册</span></div>
+ 	</div>
+ </div>	
+
+<!-- nav -->
+ <div class="nav_wrap clear">
+ 	<div class="nav_n clear">
+ 		<div class="nav_list fl ">
+ 			
+ 				<span class="home_img"><img src="./images/home.png" alt=""></span>
+ 			    <span id="profuct_w">产品中心<i class="arrow"><img src="./images/arrow.png" alt=""></i></span>
+ 				<span>培训事业部</span>
+ 				<span>论坛</span>
+ 				<span class="about_us" style="border-right: #000 dashed 1px;">关于我们</span>
+ 			
+ 		</div>
+ 		<div class="china_english fl"><span class="tu_s fl"><img src="./images/back_bg.png" alt=""></span>
+ 		<span class="change_t">中文 &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;English</span></div>
+
+   </div>
+         <!-- 下拉面板begain -->
+		<div id="nav_bb" class="nav-wrapper " style="display: none;">
+			<div class="nav-panel">
+				<div class="panel-item">
+					<ul>
+						<li><a href="#">Allegro AMS Simulator</a></li>
+						<li><a href="#">Allegro Design Authoring</a></li>
+						<li><a href="#">Allegro FSP</a></li>
+						<li><a href="#">Allegro PCB Designer</a></li>
+						<li><a href="#">Allegro Sigrity SI Base</a></li>
+						<li><a href="#">OrCAD Capture CIS</a></li>
+						<li><a href="#">Orcad PCB Designer</a></li>
+						<li><a href="#">Power DC</a></li>
+						<li><a href="#">Power SI</a></li>
+						<li><a href="#">Pspice AD</a></li>
+						<li><a href="#">Speed2000</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="up_arr clear"><img id="up_arr" src="./images/up_arr.png" alt=""></div>
+		</div>
+      <!-- 下拉面板end -->
+ </div>
+<!--  产品中心图 -->
+<div class="product_img">
+   <h2>PRODUCT CENTER</h2>
+	<h5>产品中心</h5>
+</div>
+<div class="product_list_w comwith_t">
+   	<div class="product_left">
+   		<ul>
+   			<li><i></i><span>Allegro  AMS Simulator</span></li>
+   			<li><i></i><span>Allegro  AMS Simulator</span></li>
+   			<li><i></i><span>Allegro  AMS Simulator</span></li>
+   			<li><i></i><span>Allegro  AMS Simulator</span></li>
+   			<li><i></i><span>Allegro  AMS Simulator</span></li>
+   			<li><i></i><span>Allegro  AMS Simulator</span></li>
+   			<li><i></i><span>Allegro  AMS Simulator</span></li>
+   			<li><i></i><span>Allegro  AMS Simulator</span></li>
+   			<li><i></i><span>Allegro  AMS Simulator</span></li>
+   			<li><i></i><span>Allegro  AMS Simulator</span></li>
+   			<li><i></i><span>Allegro  AMS Simulator</span></li>
+   		</ul>
+   	</div>
+   	<div class="product_right"></div>
+</div>
+</body>
+<script>
+	$("#profuct_w").click(function(){
+       $("#nav_bb").slideDown("slow");
+	})
+	$("#up_arr").click(function(){
+		$("#nav_bb").slideUp("slow");
+	})
+
+
+
+</script>
+</html>

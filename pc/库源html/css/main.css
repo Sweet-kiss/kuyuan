@@ -457,3 +457,29 @@
 .link_img p i img {
    width: 100%;
 }
+
+/*产品中心*/
+.product_img {
+	height: 200px;
+	background-color: red;
+	overflow: hidden;
+	background-image: url("../images/product_bg.jpg");
+	background-size: cover;
+}
+.product_img h2 {
+	text-align: center;
+	font-size: 28px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 45px;
+	font-weight: bold;
+	color: #fa0619;
+}
+.product_img h5 {
+	text-align: center;
+	font-size: 24px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 2px;
+	color: white;
+}
