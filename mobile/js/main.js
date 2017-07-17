@@ -1,10 +1,25 @@
+var btnNoChanging = true;
+var panelNoChanging = true;
 $("#login .login-btn").click(function() {
-	$(this).stop().fadeOut();
-	$(this).siblings().stop().fadeIn()
-	if ($(this).is(":hidden")) {
-		$("#login-panel").slideDown("fast")
+	if (!btnNoChanging && !panelNoChanging) return
+	btnNoChanging = false;
+	panelNoChanging = false;
+	if ($("#login-panel").is(':hidden')) {
+		$("#login .more").fadeOut("fast", function() {
+			btnNoChanging = true;
+		});
+		$("#login .close").fadeIn("fast", function() {})
+		$("#login-panel").stop(true,true).slideDown(200, 'swing', function() {
+			panelIsChanging = true;
+		})
 	} else {
-		$("#login-panel").slideUp("fast")
+		$("#login .close").fadeOut("fast", function() {
+			btnNoChanging = true;
+		});
+		$("#login .more").fadeIn("fast", function() {})
+		$("#login-panel").stop(true,true).slideUp(200, 'swing', function() {
+			panelIsChanging = true;
+		})
 	}
 })
 $("#goods-title").click(function() {
@@ -21,10 +36,17 @@ $("#goods-title").click(function() {
 $("#goods-title li").click(function(event) {
 	event.stopPropagation()
 })
-var mySwiper = new Swiper('.swiper-container', {
+var mySwiper = new Swiper('#banner-swiper', {
 	autoplay: 5000,
 	autoplayDisableOnInteraction : false,
 	loop : true,
-	prevButton:'.swiper-button-prev',
-	nextButton:'.swiper-button-next',
+	prevButton:'#banner-swiper-button-prev',
+	nextButton:'#banner-swiper-button-next',
+})
+var mySwiper = new Swiper('#new-center-swiper', {
+	autoplay: 5000,
+	autoplayDisableOnInteraction : false,
+	loop : true,
+	prevButton:'#new-swiper-button-prev',
+	nextButton:'#new-swiper-button-next',
 })
