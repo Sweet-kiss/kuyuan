@@ -93,7 +93,7 @@
 .swiper-button-next, .swiper-button-prev {
 	background-size: 25px 25px;
 }
-#solution .title {
+#solution>.title {
 	text-align: center;
 	padding: 10px 0;
 }
@@ -105,4 +105,53 @@
 #solution .title .zh {
 	font-size: 18px;
 	line-height: 1.5;
+}
+#solution .list {
+	overflow: hidden;
+}
+#solution .list .item {
+	width: 42.5%;
+	float: left;
+	margin-left: 5%;
+	font-size: 0;
+}
+#solution .list .item .picture {
+	width: 100%;
+}
+#solution .list .item .description {
+	border-top: 4px solid #FF0000;
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: #515151;
+}
+#solution .list .item .description .title {
+	font-size: 18px;
+	height: 28px;
+	line-height: 28px;
+	color: #4c90f7;
+}
+#solution .list .item .description .info {
+	font-size: 15px;
+	height: 25px;
+	line-height: 25px;
+	color: #FFFFFF;
+}
+#new-center .title {
+	text-align: center;
+}
+#new-center .title .en {
+	color: #FF0000;
+	font-size: 20px;
+	line-height: 1.5;
+}
+#new-center .title .zh {
+	font-size: 18px;
+	line-height: 1.5;
+}
+#new-center {
+	margin: 0 20px;
+	overflow: hidden;
+}
+#new-center .swiper-slide img {
+	width: 100%;
 }
