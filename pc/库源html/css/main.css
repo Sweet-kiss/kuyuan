@@ -713,3 +713,16 @@
 	color: white;
 	border-radius: 4px;
 }
+.paging {
+	padding: 30px 0px;
+	text-align: center;
+}
+.paging a {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #000;
+	color: white;
+}
+.paging a:hover, .paging a:active {
+	background-color: red;
+}
