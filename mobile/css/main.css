@@ -258,6 +258,7 @@
 }
 .serve_l ul li a {
 	color: white;
+	font-size: 20px;
 }
 .serve_l ul li a:hover {
 	color: #fc0316;
@@ -275,7 +276,517 @@
 .serve_r h5 {
 	font-size: 10px;
 	text-align: center;
+	margin-bottom: 10px;
 }
-.serve_r p a{
-   text-align: center;
+.tex_link a {
+	display: block;
+	padding: 5px;
+	color: #fc0316;
+	font-size: 15px;
+	text-align: center;
+
+}
+.tex_link i {
+	vertical-align: top;
+	display: inline-block;
+	width: 15px;
+	margin-top: 2px;
+	margin-left: 3px;
+}
+.tex_link i img {
+	width: 100%;
+}
+.call_top {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.p_icon {
+   display: inline-block;
+   width: 35px;
+   height: 35px;
+   vertical-align: top;
+   background-color: yellow;
+   background: url("../img/phone.01.png");
+   background-size: cover;
+   margin-right: 5px;
+   margin-top: 5px;
+ }
+
+ .p_number {
+    display: inline-block;
+ 	font-size: 23px;
+ 	height: 45px;
+ 	line-height: 45px;
+ }
+ .bquan {
+ 	width: 90%;
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	margin-bottom: 50px;
+ }
+ .contact_w {
+    width: 90%;
+    margin: 0 auto;
+ }
+ .addres_w h2 {
+ 	font-size: 25px;
+ 	margin: 15px 0px;
+ 	color: red;
+ }
+ .addres_w ul li {
+ 	font-size: 17px;
+ 	height: 30px;
+ 	line-height: 30px;
+ }
+ .company_n {
+    font-size: 20px !important;
+    margin-bottom: 10px;
+ }
+
+ @media screen and (max-width: 400px) {
+   .addres_w h2 {
+ 	font-size: 22px;
+ 	margin: 15px 0px;
+ 	color: red;
+    }
+    .addres_w ul li {
+ 	font-size: 15px;
+ 	height: 25px;
+ 	line-height: 25px;
+     }
+   .company_n {
+    font-size: 19px !important;
+    margin-bottom: 10px;
+   }
+   .bquan {
+ 	width: 90%;
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	font-size: 14px;
+ 	margin-bottom: 50px;
+ }
+}
+
+ @media screen and (max-width: 350px) {
+   .addres_w h2 {
+ 	font-size: 20px;
+ 	margin: 12px 0px;
+ 	color: red;
+    }
+    .addres_w ul li {
+ 	font-size: 14px;
+ 	height: 25px;
+ 	line-height: 25px;
+     }
+   .company_n {
+    font-size: 16px !important;
+    margin-bottom: 5px;
+   }
+
+   .p_icon {
+   display: inline-block;
+   width: 26px;
+   height: 26px;
+   vertical-align: top;
+   background-color: yellow;
+   background: url("../img/phone.01.png");
+   background-size: cover;
+   margin-right: 5px;
+   margin-top: 10px;
+ }
+  .p_number {
+    display: inline-block;
+ 	font-size: 20px;
+ 	height: 45px;
+ 	line-height: 45px;
+ }
+  .bquan {
+ 	width: 90%;
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	font-size: 12px;
+ 	margin-bottom: 50px;
+ }
+ .serve_l ul li a {
+	color: white;
+	font-size: 15px;
+  }
+}
+/*新闻列表*/
+.news_wrapper {
+	overflow: hidden;
+	height: 80px;
+	background:url("../img/news_bg.png");
+	background-size: cover;
+}
+.news_wrapper h2 {
+	text-align: center;
+	font-size: 20px;
+	margin: 12px 0px;
+	color: #fc0606;
+	font-weight: bold;
+}
+.news_wrapper h3 {
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+
+.new_list_wapper {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.news_list_n {
+	padding-bottom: 10px;
+	border-bottom: #cecdcd dashed 1px;
+}
+.new_top {
+	overflow: hidden;
+	margin-top: 20px;
+	}
+.news_data,.news_title {
+  float: left;
+}
+.news_data {
+	width: 48px;
+	height: 53px;
+	text-align: center;
+	border: #bababb solid 1px;
+}
+.news_data h2 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #fc0518;
+	margin-top: 10px;
+}
+.news_data h4 {
+	font-size: 16px;
+	color: #fc0518;
+	margin-top: 2px;
+}
+
+.news_title h2 a{
+	display: inline-block;
+	font-size: 19px;
+	font-weight: bold;
+	text-indent: 10px;
+	margin-top: 2px;
+	color: #535353;
+}
+.news_title p span{
+	display: inline-block;
+	font-size: 15px;
+	margin-right:20px;
+	margin-top: 12px;
+	margin-left: 10px;
+	color: #5a5858;
+}
+.news_center p {
+	font-size: 14px;
+	text-indent: 20px;
+	color: #5a5858;
+	padding: 10px 10px;
+	height: 50px;
+	line-height: 20px;
+	display: -webkit-box;
+   -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.news_buttom {
+	padding: 5px 0px;
+	text-align: right;
+}
+.news_buttom a {
+	display: inline-block;
+	background-color: #fc0518;
+	padding: 5px 10px;
+	font-size: 8px;
+	margin-right: 10px;
+	color: white;
+	border-radius: 4px;
+}
+
+/*新闻中心详情*/
+.news_detail_wrapper {
+	width: 95%;
+	margin: 0 auto;
+}
+.news_detail_wrapper h2 {
+	font-size: 20px;
+	text-align: center;
+	height: 36px;
+	line-height: 36px;
+	margin-top: 10px;
+	color: #282727;
+	font-weight: bold;
+}
+.news_detail_wrapper p {
+	text-align: center;
+}
+.news_detail_wrapper p span {
+	display: inline-block;
+	font-size: 15px;
+	color: #9e9d9d;
+	margin-right: 10px;
+    height: 9px;
+    line-height: 9px;
+}
+.news_TTE {
+   font-size: 15px;
+   line-height: 20px;
+   text-indent: 20px;
+   text-align: left !important;
+   margin-top: 15px;
+   margin-bottom: 30px;
+}
+.news_more_l {
+	overflow: hidden;
+	padding: 35px 0px;
+}
+.news_more_left,.news_more_right {
+	width: 50%;
+   float: left;
+   text-align:center;
+}
+.text_btn {
+	display: inline-block;
+	width: 70%;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 45px;
+	border: #cecdcd solid 1px;
+}
+.text_btn:hover,.text_btn:active {
+	background-color: red;
+	color: white;
+}
+.back_s {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	border-bottom: #dbdbdb solid 1px;
+}
+.back_w {
+	position: absolute;
+	top:15px;
+	left: 10px;
+	width: 20px;
+	height: 20px;
+}
+.back_w a img{
+   width: 100%;
+}
+.back_s p {
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+}
+
+ @media screen and (max-width: 350px) {
+ 	.news_detail_wrapper h2 {
+	font-size: 16px;
+	text-align: center;
+	height: 36px;
+	line-height: 36px;
+	margin-top: 10px;
+	color: #282727;
+	font-weight: bold;
+}
+
+.news_detail_wrapper p span {
+	display: inline-block;
+	font-size: 13px;
+	color: #9e9d9d;
+	margin-right: 10px;
+    height: 9px;
+    line-height: 9px;
+}
+
+.news_TTE {
+   font-size: 13px;
+   line-height: 19px;
+   text-indent: 20px;
+   text-align: left !important;
+   margin-top: 15px;
+   margin-bottom: 30px;
+ }
+
+.news_title h2 a{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	text-indent: 10px;
+	margin-top: 2px;
+	color: #535353;
+   }
+.news_title p span{
+	display: inline-block;
+	font-size: 12px;
+	margin-right:5px;
+	margin-top: 12px;
+	margin-left: 10px;
+	color: #5a5858;
+  }
+  .news_data {
+	width: 43px;
+	height: 42px;
+	text-align: center;
+	border: #bababb solid 1px;
+ }
+
+.news_data h2 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #fc0518;
+	margin-top: 8px;
+  }
+.news_data h4 {
+	font-size: 12px;
+	color: #fc0518;
+	margin-top: 2px;
+  }
+}
+
+/*产品中心*/
+.product_Nav {
+	width: 100%;
+	overflow: hidden;
+}
+.product_Nav li {
+	float: left;
+	width: 25%;
+	height: 40px;
+	background-color: #fa071a;
+}
+.product_Nav li a {
+	display: block;
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+	height: 34px;
+	line-height: 34px;
+	color: #171717;
+	color: white;
+}
+.product_Nav li a:hover,.product_Nav li a:active {
+	border-bottom: #fff solid 3px;
+}
+.product_main h2 {
+	text-align: center;
+	font-size: 20px;
+	margin: 15px 0px;
+}
+.img_pro,.img_pro img {
+	width: 100%;
+}
+.product_main p {
+  font-size: 17px;
+  line-height: 20px;
+  margin-top: 10px;
+  text-indent: 20px;
+  padding: 0px 5px;
+}
+ @media screen and (max-width: 350px) {
+ 	.header {
+	overflow: hidden;
+	padding: 5px 1px;
+   }
+   .logo {
+	width: 179px;
+	height: 36px;
+	float: left;
+  }
+  #login img {
+	position: absolute;
+	top: 9px;
+	left: 5px;
+	width: 26px;
+	height: 26px;
+  }
+.product_Nav li {
+	float: left;
+	width: 25%;
+	height: 37px;
+	background-color: #fa071a;
+  }
+.product_Nav li a {
+	display: block;
+	text-align: center;
+	width: 70%;
+	font-size: 13px;
+	margin: 0 auto;
+	height: 30px;
+	line-height: 30px;
+	color: #171717;
+	color: white;
+  }
+  .product_main h2 {
+	text-align: center;
+	font-size: 18px;
+	margin: 15px 0px;
+  }
+  .product_main p {
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 10px;
+  text-indent: 20px;
+  padding: 0px 5px;
+ }
+}
+
+.list_oo {
+  overflow: hidden;
+ padding: 15px 0px;
+ border-bottom: #d9dada dashed 1px;
+}
+.Dlist_l,.Dlist_r,.Dlist_num,.Dlist_nn{
+	float: left;
+}
+.Dlist_l {
+	width: 75%;
+	overflow: hidden;
+}
+
+.Dlist_num {
+	width: 15%;
+	text-align: center;
+}
+.Dlist_num span {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #fa071a;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 2px;
+	border-radius: 50%;
+}
+.Dlist_nn h2 {
+	font-size: 18px;
+	margin-bottom: 6px;
+}
+.Dlist_nn p span {
+	font-size: 8px;
+	color: #878888;
+}
+.Dlist_nn {
+	width: 85%;
+}
+.Dlist_r {
+	width: 25%;
+	text-align: center;
+	padding-top: 15px;
+}
+.Dlist_r a {
+	font-size: 16px;
+	text-decoration: underline;
+}
+.Dlist_r a:active {
+	color: red;
 }
