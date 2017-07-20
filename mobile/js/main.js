@@ -12,12 +12,18 @@ $("#login .login-btn").click(function() {
 		$("#login-panel").stop(true,true).slideDown(200, 'swing', function() {
 			panelIsChanging = true;
 		})
+		$("#navication").stop(true,true).slideDown(200, 'swing', function() {
+			panelIsChanging = true;
+		})
 	} else {
 		$("#login .close").fadeOut("fast", function() {
 			btnNoChanging = true;
 		});
 		$("#login .more").fadeIn("fast", function() {})
 		$("#login-panel").stop(true,true).slideUp(200, 'swing', function() {
+			panelIsChanging = true;
+		})
+		$("#navication").stop(true,true).slideUp(200, 'swing', function() {
 			panelIsChanging = true;
 		})
 	}
