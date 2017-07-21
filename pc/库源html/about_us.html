@@ -297,8 +297,10 @@
 	$(document).ready(function() {
 		$(".about_nav li").click(function() {
 			var item = $(this).data("position");
+			$(this).addClass("active");
+			$(this).siblings().removeClass("active");
 			$('html, body').stop().animate({
-				scrollTop: $("#"+item).offset().top
+				scrollTop: $("#"+item).offset().top - 240
 			}, 'slow', 'swing', 1000);
 		});
 	});
