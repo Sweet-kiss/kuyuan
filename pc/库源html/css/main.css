@@ -6,7 +6,7 @@
 .top {
 	width: 98%;
 	margin: 0 auto;
-	height: 60px;
+	height: 73px;
 	overflow: hidden;
 }
 .logo_w,.phone,.login_w {
@@ -169,7 +169,6 @@
 .nav-wrapper {
   width: 100%;
   background-color: #ececec;
-  z-index: -100;
   padding: 10px 0;
   overflow: hidden;
 }
@@ -550,13 +549,10 @@
 	background-size: cover;
 }
 .news_img {
-	background-image: url("../images/news_bg.png");
-	background-size: cover;
-}
-.about_us_img {
 	background-image: url("../images/About_us_bg.png");
 	background-size: cover;
 }
+
 .product_img h2 {
 	text-align: center;
 	font-size: 28px;
@@ -578,6 +574,7 @@
 /*产品内容*/
 .product_list_w {
 	overflow: hidden;
+	margin-top: 324px;
 }
 .product_left{
    float: left;
@@ -856,7 +853,7 @@
 
 /*关于我们*/
 .about-us-wrapper {
-	width: 1280px;
+	width: 100%
 	margin: 0 auto;
 }
 
@@ -875,13 +872,13 @@
 	line-height: 47px;
 	cursor: pointer;
 }
-.about_nav ul li:hover {
+.about_nav ul li:hover,.about_nav ul li:active{
 	color: #fa0518;
 	border-bottom: #fa0518 solid 2px;
 }
 .introduction_title {
    height: 100px;
-   width: 1280px;
+   width: 100%;
    margin: 0 auto;
 }
 .introduction_title h2 {
@@ -896,10 +893,7 @@
 	color: #afb0b0;
 	text-align: center;
 }
-.introduction_txt {
-	width: 1280px;
-   margin: 0 auto;
-}
+
 .introduction_txt p {
 	font-size: 18px;
 	line-height: 25px;
@@ -934,7 +928,7 @@
 }
 .environmental-wrapper {
 	overflow: hidden;
-	width: 1280px;
+	width: 98%;
 	margin: 0 auto;
 }
 .environmental-btn {
@@ -986,7 +980,7 @@
 // 	top:45%;
 // }
 .contact_map {
-	width: 1280px;
+	width: 100%;
 	margin: 0 auto;
 }
 .map {
@@ -994,7 +988,7 @@
 	margin-top: 30px;
 }
 .address {
-	width: 1280px;
+	width: 90%;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 10px 0px;
@@ -1129,4 +1123,53 @@
 	padding: 10px 0px;
 	text-align: center;
 	font-size: 15px;
+}
+
+/*定位*/
+/*.top_dw {
+	position: fixed;
+	top:0;
+	left: 0; 
+	background-color: white;
+	z-index: 1000;
+}
+.nav_dw {
+	position: fixed;
+	top:73px;
+	left: 0; 
+	z-index: 1000;
+}
+.prod_dw {
+	position: fixed;
+	top:120px;
+	left: 0; 
+	z-index: 1000; 
+}
+.introduction_dw {
+	clear: both;
+	margin-top: 34px !important;
+}
+.us_pw {
+	position: ;
+	top:120px;
+	left: 0; 
+	z-index: 1000; 
+}
+.nav_xl {
+	position: fixed;
+	top:120px;
+	left: 0px;
+	z-index: 10000;
+}*/
+.t_wap,.prod_dwa {
+	position: fixed;
+	width: 100%;
+	top:0px;
+	left: 0px;
+	z-index: 1000;
+	background-color: white;
+}
+.introduction_dw {
+	clear: both;
+	margin-top: 350px !important;
 }
