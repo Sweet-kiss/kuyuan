@@ -137,8 +137,8 @@
 	width: 11px;
 	height: 10px;
 	position: absolute;
-	right: 29px;
-	top: 15px;
+	right: 24px;
+	top: 18px;
 }
 .change-language {
 	float: right;
@@ -386,7 +386,7 @@
 	padding-top: 43px;
 	overflow: hidden;
 	padding-bottom: 27px;
-	height: 330px;
+	height: 270px;
 }
 .news_l_01 {
 	width: 31%;
@@ -534,7 +534,8 @@
 .link_img p {
 	font-size: 15px;
 	color: #5c5b5b;
-	margin-top: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 
 }
 .link_img p span {
@@ -559,11 +560,12 @@
 	height: 140px;
 	background-color: red;
 	overflow: hidden;
+	min-width: 1200px;
 	background-image: url("../images/product_bg.jpg");
 	background-size: cover;
 }
 .add_PP {
-	height: 100px !important;
+	height: 114px !important;
 }
 .news_img {
 	background-image: url("../images/About_us_bg.png");
@@ -593,7 +595,7 @@
 /*产品内容*/
 .product_list_w {
 	overflow: hidden;
-	margin-top: 198px;
+	margin-top: 3px;
 }
 .product_left{
    float: left;
@@ -693,16 +695,21 @@
    margin: 0 auto;
 }
 .product_test h2,.product_function h2,.product_download h2{
-	font-size: 23px;
+	font-size:17px;
 	font-weight: block;
-	padding: 20px 0px;
+	padding: 9px 0px;
 	border-bottom: #ccc solid 1px;
+	overflow: hidden;
+	background-color: #f7f7f7;
+	text-indent: 10px;
 }
 .product_test p,.product_function p {
-	font-size: 15px;
+	padding: 10px 0px;
+	font-size: 12px;
 	text-indent: 10px;
 	line-height: 20px;
 }
+
 .download_list {
 	overflow: hidden;
 	margin-top: 10px;
@@ -713,22 +720,22 @@
 }
 .downloas_left {
 	width: 80%;
-	height: 80px;
+	height: 70px;
 }
 .download_logo,.download_sm{
 	float: left;
 }
 .download_logo {
-	width: 55px;
-	height: 55px;
+	width: 36px;
+	height: 36px;
 	margin: 15px 20px 15px 3px;
 	background-image: url("../images/test.png");
 	background-size: 100%;
 }
 .download_sm h3 {
-	font-size: 20px;
+	font-size: 16px;
 	margin-top: 15px;
-	margin-bottom: 11px;
+	margin-bottom: 8px;
 }
 .download_sm p span {
 	font-size: 14px;
@@ -738,14 +745,15 @@
 .downloas_right {
 	width: 20%;
 	text-align: center;
-	height: 80px;
-	line-height: 80px;
+	height: 70px;
+	line-height: 70px;
 }
 .downloas_right input {
-	width: 70%;
+	width: 50%;
 	background-color: red;
+	font-size: 13px;
 	border: none;
-	height: 50px;
+	height: 38px;
 	color: white;
 }
 
@@ -909,6 +917,7 @@
    height: 79px;
    width: 100%;
    margin: 0 auto;
+   min-width: 1200px;
 }
 .introduction_title h2 {
 	font-size: 22px;
@@ -1191,7 +1200,7 @@
 	left: 0px;
 	z-index: 10000;
 }*/
-.t_wap,.prod_dwa {
+.t_wap{
 	position: fixed;
 	width: 100%;
 	top:0px;
