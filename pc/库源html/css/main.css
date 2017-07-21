@@ -1,7 +1,6 @@
 ﻿/*top*/
 .top_w {
 	width: 100%;
-	width: 1280px;
 	margin: 0 auto;
 }
 .top {
@@ -197,7 +196,7 @@
 }
 /*轮播产品*/
 #banner {
-	width: 1280px;
+	width: 100%;
 	margin: 0 auto;
 }
 .wrapper {
@@ -282,7 +281,7 @@
 
 /*首页解决方案*/
 .slution_wrapper {
-	width: 1280px;
+	width: 100%;
 	margin: 0 auto;
 }
 .solution_title_w {
@@ -448,7 +447,7 @@
 
 /*底部*/
 .bottom_wrapper {
-	width: 1280px;
+	width: 100%;
 	margin: 0 auto;
 }
 .bottom_wrapper,.bottom_n {
