@@ -17,6 +17,8 @@
  }
 .logo_w img {
 	width: 40%;
+	max-width: 355px;
+	max-height: 40px;
 	margin-top: 6px;
 }
 .phone {
@@ -319,7 +321,7 @@
 .Mask_top {
 	position: absolute;
 	top: -100%;
-	height: 300px;
+	height: 280px;
 	left: 0;
 	width: 100%;
 	background-color: rgba(49, 48, 48, 0.7);
@@ -384,6 +386,7 @@
 	padding-top: 43px;
 	overflow: hidden;
 	padding-bottom: 27px;
+	height: 330px;
 }
 .news_l_01 {
 	width: 31%;
@@ -637,7 +640,6 @@
 	overflow: hidden;
 	width: 98%;
 	margin: 0 auto;
-	
 }
 .top_nav ul li {
 	float: left;
