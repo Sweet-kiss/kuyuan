@@ -6,7 +6,7 @@
 .top {
 	width: 98%;
 	margin: 0 auto;
-	height: 73px;
+	height: 49px;
 	overflow: hidden;
 }
 .logo_w,.phone,.login_w {
@@ -16,12 +16,12 @@
   width: 67%;
  }
 .logo_w img {
-	width: 45%;
-	margin-top: 10px;
+	width: 40%;
+	margin-top: 6px;
 }
 .phone {
   width: 17%;
-  margin-top: 20px;
+  margin-top: 12px;
  }
 .phone span {
 	display: inline-block;
@@ -30,13 +30,13 @@
 	display: inline-block;
 	float: left;
 	margin-right: 8px;
-	width: 35px;
+	width: 24px;
 }
 .phone span em {
 	display: inline-block;
 	float: left;
-	margin-top: 5px;
-    font-size: 22px;
+	margin-top: 4px;
+    font-size: 18px;
     color: black;
 }
 .phone i img {
@@ -47,12 +47,12 @@
 }
 .login_w span{
 	display: inline-block;
-   font-size: 16px;
+   font-size: 11px;
    margin-right: 10px;
-   height: 40px;
+   height: 37px;
    color: #545353;
-   margin-top: 16px;
-  margin-left: 10px;
+   margin-top: 7px;
+  margin-left: 21px;
 }
 .load_w a {
 	display: inline-block;
@@ -65,13 +65,13 @@
 /*nav*/
 .nav_wrap {
 	width: 100%;
-	height: 50px;
+	height: 45px;
     position: relative;
 }
 .blak-background {
 	background-color: #000000;
 	width: 50%;
-	height: 50px;
+	height: 45px;
 	position: absolute;
 	left: 0;
 	z-index: 1;
@@ -79,7 +79,7 @@
 .red-background {
 	background-color: #FF0000;
 	width: 50%;
-	height: 50px;
+	height: 45px;
 	position: absolute;
 	right: 0;
 	z-index: 1;
@@ -87,18 +87,18 @@
 .nav-b {
 	position: absolute;
 	left: 0;
-	height: 50px;
+	height: 45px;
 	width: 100%;
 	z-index: 1;
 }
 .nav_n {
-	width: 1280px;
-	height: 50px;
+	width: 95%;
+	height: 45px;
 	margin: 0 auto;
 }
 .nav_list {
 	background-color: #000000;
-	height: 50px;
+	height: 45px;
 }
 .nav_list ul {
 	display: inline-block;
@@ -107,13 +107,14 @@
 .nav_list ul li {
 	float: left;
 	width: 150px;
-	height: 50px;
-	line-height: 50px;
+	height: 45px;
+	line-height: 45px;
 	text-align: center;
 	position: relative;
 	margin-right: 20px;
 	cursor: pointer;
 	color: #FFFFFF;
+	font-size: 15px;
 }
 #profuct_w {
 	color: #FFFFFF;
@@ -125,15 +126,15 @@
 	height: 100%;
 }
 .nav_list ul li .home{
-	width: 30px;
-	height: 30px;
-	margin-top: 10px;
+	width: 23px;
+	height: 22px;
+	margin-top: 12px;
 }
 .nav_list ul li .more{
-	width: 20px;
-	height: 20px;
+	width: 11px;
+	height: 10px;
 	position: absolute;
-	right: 20px;
+	right: 29px;
 	top: 15px;
 }
 .change-language {
@@ -141,8 +142,9 @@
 }
 .change-language div {
 	float: left;
-	height: 50px;
-	line-height: 50px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 13px;
 	padding-right: 25px;
 	background-color: #FF0000;
 }
@@ -153,12 +155,12 @@
 }
 .change-language .triangle {
 	width: 0;
-	height: 0;
-	padding: 0;
-	border-top: 25px solid #000000;
-	border-right: 25px solid #FF0000;
-	border-bottom: 25px solid #FF0000;
-	border-left: 25px solid #000000;
+    height: 0;
+    padding: 0;
+    border-top: 20px solid #000000;
+    border-right: 20px solid #FF0000;
+    border-bottom: 25px solid #FF0000;
+    border-left: 25px solid #000000;
 }
 .change-language .chinese a {
 	border-right: 1px solid #FFFFFF;
@@ -219,6 +221,7 @@
 	margin-bottom: 2px;
 	text-align: center;
 	cursor: pointer;
+	font-size: 13px;
 }
 #list .list-item:last-child {
 	margin-bottom: 0;
@@ -287,10 +290,10 @@
 	text-align: center;
 	min-width: 1200px;
 	margin: 0 auto;
-	padding: 20px 0px;
+	padding: 29px 0px;
 }
 .solution_title_w img {
-	width: 30%;
+	width: 25%;
 }
 .solution_list_w {
 	overflow: hidden;
@@ -307,7 +310,7 @@
 .solution_top {
 	position: relative;
 	overflow: hidden;
-	height: 300px;
+	height: 280px;
 }
 .solution_top>img {
 	width: 100%;
@@ -347,14 +350,14 @@
 .solution_txt .text h1 {
 	height: 45px;
 	line-height: 45px;
-	font-size: 21px;
+	font-size: 17px;
 	color: #FFFFFF;
 }
 .solution_l:hover .solution_txt .text h1 {
 	color: #12f3f6;
 }
 .text p {
-	font-size: 17px;
+	font-size: 14px;
 	color: white;
 }
 .solution_txt .mark {
@@ -371,16 +374,15 @@
 	overflow: hidden;
 	background-image: url("../images/home_news_bg.png");
 	background-size: cover;
-	margin-top: 100px;
+	margin-top: 36px;
 }
 .news_cent {
 	overflow: hidden;
 }
 .news_list {
-	padding-top: 70px;
+	padding-top: 43px;
 	overflow: hidden;
-	padding-bottom: 40px;
-	min-height: 300px;
+	padding-bottom: 27px;
 }
 .news_l_01 {
 	width: 31%;
@@ -415,7 +417,7 @@
 	bottom: 10px;
 	left: 30px;
 	color: white;
-	font-size: 23px;
+	font-size: 16px;
 }
 .news_text {
 	width: 100%;
@@ -432,9 +434,12 @@
  }
  .news_N h2 {
  	color: #fa060c;
- 	font-size: 21px;
+ 	font-size: 17px;
  	margin-bottom: 10px;
  }
+.news_N p {
+  font-size: 14px;
+}
   .more_news {
   	text-align: center;
   }
@@ -450,7 +455,7 @@
 	margin: 0 auto;
 }
 .bottom_wrapper,.bottom_n {
-	padding: 20px 0px;
+	padding-top: 15px;
 	background-color: #000;
 	overflow: hidden;
 }
@@ -472,43 +477,48 @@
 }
 .about_us_w h2,.our_server h2,.contact_us h2,.Friendship_link h2 {
 	color: #fa060c;
-	font-size: 21px;
+	font-size: 16px;
 	margin-bottom: 15px;
 }
 .about_us_w h3,.our_server h3,.contact_us h3,.Friendship_link h3 {
-	width: 54px;
+	width: 37px;
 	border-bottom: #fa060c solid 2px;
-	margin-bottom: 15px;
+	margin-bottom: 12px;
 }
 .about_us_w p {
-	color: #5c5b5b;
-	font-size: 18px;
+	color: #6f7070;
+	font-size: 14px;
 	text-indent: 24px;
 	padding-right: 25px;
-	line-height: 25px;
+	line-height: 22px;
 	margin-bottom: 20px;
 }
 .text_us a {
 	display: inline-block;
 	color: #fa060c;
+	font-size: 14px;
 }
 .text_us a i {
 	display: inline-block;
+	width: 18px;
 	vertical-align: top;
 	margin-left: 5px;
 }
+.text_us a i img {
+	width: 100%;
+}
 .our_server ul li a {
 	display: block;
-	font-size: 18px;
-	color: #5c5b5b;
-	height: 30px;
+	font-size: 12px;
+	color: #6f7070;
+	height: 26px;
 	line-height: 30px;
 }
 .contact_us ul li {
-	font-size: 18px;
-	color: #5c5b5b;
-	height: 30px;
-	line-height: 30px;
+	font-size: 15px;
+	color: #6f7070;
+	height: 27px;
+	line-height: 27px;
 }
 .contact_us ul li i {
 	display: inline-block;
@@ -542,39 +552,44 @@
 
 /*产品中心*/
 .product_img {
-	height: 200px;
+	height: 140px;
 	background-color: red;
 	overflow: hidden;
 	background-image: url("../images/product_bg.jpg");
 	background-size: cover;
 }
+.add_PP {
+	height: 100px !important;
+}
 .news_img {
 	background-image: url("../images/About_us_bg.png");
 	background-size: cover;
 }
-
+.pud_ass {
+	background-image: url("../images/news_bg.png");
+	background-size: cover;
+}
 .product_img h2 {
 	text-align: center;
-	font-size: 28px;
-	height: 50px;
-	line-height: 50px;
-	margin-top: 45px;
+	font-size: 22px;
+	height: 45px;
+	line-height: 45px;
+	margin-top: 9px;
 	font-weight: bold;
 	color: #fa0619;
 }
 .product_img h5 {
 	text-align: center;
-	font-size: 24px;
-	height: 50px;
-	line-height: 50px;
-	margin-top: 2px;
+	font-size: 18px;
+	height: 31px;
+	line-height: 22px;
 	color: white;
 }
 
 /*产品内容*/
 .product_list_w {
 	overflow: hidden;
-	margin-top: 324px;
+	margin-top: 198px;
 }
 .product_left{
    float: left;
@@ -583,9 +598,10 @@
 }
 
 .product_left ul li {
-	height: 50px;
-	line-height: 50px;
+	height: 40px;
+	line-height: 40px;
 	text-indent: 20px;
+	font-size: 14px;
 	border-bottom: #d9dbdb dashed 1px;
 	color: #525454;
 }
@@ -624,8 +640,8 @@
 }
 .top_nav ul li {
 	float: left;
-	height: 50px;
-	line-height: 50px;
+	height: 42px;
+	line-height: 42px;
 	width: 25%;
 	text-align: center;
 }
@@ -634,20 +650,28 @@
 }
 .nav_on a {
 	display: block;
-    width: 30%;
+    width: 26%;
+    font-size: 14px;
 	margin: 5px auto;
 	height: 40px;
 	line-height: 40px;
 	color: white;
 	border-top: #fff solid 2px;
 }
-
+.top_nav ul li {
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+}
 .top_nav ul li:hover{
    background-color: #fa0215;
+   font-size: 14px;
+   height: 40px;
+	line-height: 40px;
 }
 .top_nav ul li:hover a {
    display: block;
-    width: 30%;
+    width: 26%;
 	margin: 5px auto;
 	height: 40px;
 	line-height: 40px;
@@ -656,7 +680,7 @@
 }
 .product_video {
 	width: 100%;
-	margin: 10px auto;
+	margin: 3px auto;
 }
 .product_video img{
 	width: 100%;
@@ -740,19 +764,19 @@
   float: left;
 }
 .news_data {
-	width: 60px;
-	height:65px;
+	width: 54px;
+	height:56px;
 	text-align: center;
 	border: #bababb solid 1px;
 }
 .news_data h2 {
-	font-size: 24px;
+	font-size: 19px;
 	font-weight: bold;
 	color: #fc0518;
 	margin-top: 10px;
 }
 .news_data h4 {
-	font-size: 16px;
+	font-size: 13px;
 	color: #fc0518;
 	margin-top: 2px;
 }
@@ -760,30 +784,31 @@
 	padding-left: 10px;
 }
 .news_title h2 {
-	font-size: 24px;
+	font-size: 18px;
 	font-weight: bold;
-	margin-top: 10px;
+	margin-top: 6px;
 }
 .news_title p span{
 	display: inline-block;
-	font-size: 17px;
+	font-size: 14px;
 	margin-right:20px;
-	margin-top: 10px;
+	margin-top: 16px;
 	color: #5a5858;
 }
 .news_center p {
-	font-size: 16px;
+	font-size: 14px;
 	text-indent: 20px;
 	color: #5a5858;
 	padding: 10px 5px;
 	line-height: 20px;
 }
 .news_buttom {
-	padding: 5px 0px;
+	padding: 2px 0px;
 	text-align: right;
 }
 .news_buttom a {
 	display: inline-block;
+	font-size: 10px;
 	background-color: #fc0518;
 	padding: 8px 15px;
 	color: white;
@@ -795,6 +820,7 @@
 }
 .paging a {
 	display: inline-block;
+	font-size: 14px;
 	padding: 10px 20px;
 	background-color: #000;
 	color: white;
@@ -866,8 +892,7 @@
 	width: 20%;
 	margin: 0 6%;
 	text-align: center;
-	font-size: 18px;
-	font-weight: bold;
+	font-size: 16px;
 	height: 47px;
 	line-height: 47px;
 	cursor: pointer;
@@ -877,27 +902,27 @@
 	border-bottom: #fa0518 solid 2px;
 }
 .introduction_title {
-   height: 100px;
+   height: 79px;
    width: 100%;
    margin: 0 auto;
 }
 .introduction_title h2 {
-	font-size: 26px;
+	font-size: 22px;
     color: #fa0518;
     text-align: center;
     font-weight: bold;
-    margin: 20px;
+    margin: 10px;
 }
 .introduction_title h4 {
-	font-size: 24px;
+	font-size: 21px;
 	color: #afb0b0;
 	text-align: center;
 }
 
 .introduction_txt p {
-	font-size: 18px;
-	line-height: 25px;
-	text-indent: 25px;
+	font-size: 15px;
+	line-height: 20px;
+	text-indent: 21px;
 	margin-bottom: 8px;
 }
 .Environmental_wap {
@@ -908,17 +933,17 @@
 	background-size: cover;
 }
 .Environmental_title h2{
-   font-size: 26px;
+   font-size: 22px;
     color: #fa0518;
     text-align: center;
     font-weight: bold;
     margin-top: 15px;
 }
 .Environmental_title h3 {
-   	font-size: 24px;
+   	font-size: 22px;
 	color: #afb0b0;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 14px;
 }
 .Environmental_img {
 	position: relative;
@@ -1171,5 +1196,5 @@
 }
 .introduction_dw {
 	clear: both;
-	margin-top: 350px !important;
+	margin-top: 262px !important;
 }
