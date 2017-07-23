@@ -122,6 +122,12 @@
 #profuct_w {
 	color: #FFFFFF;
 }
+.us_red {
+	color: red !important;
+}
+.red_h {
+	color: red !important;
+}
 .nav_list ul li a {
 	color: #FFFFFF;
 	display: inline-block;
@@ -187,6 +193,9 @@
 	height: 28px;
 	line-height: 28px;
 	float: left;
+}
+.nav-panel li a:hover {
+	color: red;
 }
 .up_arr {
 	width: 1280px;
@@ -693,7 +702,8 @@
 .product_introduction {
    width: 98%;
    margin: 0 auto;
-}
+   overflow: hidden;
+ }
 .product_test h2,.product_function h2,.product_download h2{
 	font-size:17px;
 	font-weight: block;
@@ -702,6 +712,7 @@
 	overflow: hidden;
 	background-color: #f7f7f7;
 	text-indent: 10px;
+	clear: both;
 }
 .product_test p,.product_function p {
 	padding: 10px 0px;
@@ -1211,4 +1222,21 @@
 .introduction_dw {
 	clear: both;
 	margin-top: 262px !important;
+}
+
+.introduction_LL,.introduction_rr{
+	float: left;
+}
+.introduction_LL {
+	padding: 10px 0px;
+	width: 70%;
+	font-size: 12px;
+	line-height: 20px;
+	text-indent: 20px;
+	overflow: hidden;
+}
+.introduction_rr {
+	width: 30%;
+	overflow: hidden;
+	text-align: center;
 }

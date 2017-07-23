@@ -6,7 +6,7 @@
 	padding: 10px;
 }
 .logo {
-	width: 200px;
+	width: 232px;
 	height: 40px;
 	float: left;
 }
@@ -226,10 +226,10 @@
 	margin-top: 120px;
 }
 .us_text p {
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 20px;
 	width: 95%;
-	margin: 0 auto;
+	margin: 21px auto;
 }
 .map_w,.map_w img {
 	width: 100%;
