@@ -13,26 +13,26 @@
 	float: left;
 }
 .logo_w {
-  width: 67%;
+  width: 61%;
  }
 .logo_w img {
-	width: 40%;
+	width: 30%;
 	max-width: 355px;
 	max-height: 40px;
 	margin-top: 6px;
 }
 .phone {
-  width: 17%;
+  width: 24%;
   margin-top: 12px;
  }
 .phone span {
 	display: inline-block;
 }
-.phone span i {
+.phone_w i,.time_wrap i{
 	display: inline-block;
 	float: left;
 	margin-right: 8px;
-	width: 24px;
+	width: 29px;
 }
 .phone span em {
 	display: inline-block;
@@ -1239,4 +1239,17 @@
 	width: 30%;
 	overflow: hidden;
 	text-align: center;
+}
+.phone_w {
+  margin-right: 20px;
+}
+.phone_w em {
+	font-size: 18px !important;
+	margin-top: 6px !important;
+	color: #69696a !important;
+}
+.time_wrap em{
+   font-size: 13px !important;
+   margin-top: 3px !important;
+   color: #69696a !important;
 }
