@@ -1089,7 +1089,7 @@
 .load_logo {
 	vertical-align: top;
 	display: inline-block;
-	width: 35%;
+	width: 21%;
 	margin-top: 20px;
 }
 .load_logo img {
@@ -1100,7 +1100,7 @@
 	font-size: 22px;
 	height: 25px;
 	line-height: 25px;
-	margin-top: 32px;
+	margin-top: 45px;
 	width: 10%;
 	text-align: center;
 	border-left: #fa0518 solid 4px;
