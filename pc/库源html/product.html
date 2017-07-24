@@ -91,17 +91,17 @@
    	</div>
    	</div>
    	<div class="product_right">
-   		<!-- <div class="top_nav">
-   			<ul>
-   				<li class="nav_on"><a href="#">产品介绍</a></li>
-   				<li><a href="#">产品功能</a></li>
-   				<li><a href="#">产品特性</a></li>
-   				<li><a href="Related_downloads">相关下载</a></li>
+   		<div class="top_nav">
+   			<ul id="fixed_nav">
+   				<li id="jieshao_nav" class="default_nav nav_on" data-position="jieshao"><span>产品介绍</span></li>
+   				<li id="gongneng_nav" class="default_nav" data-position="gongneng"><span>产品功能</span></li>
+   				<li id="texing_nav" class="default_nav" data-position="texing"><span>产品特性</span></li>
+   				<li id="xiazai_nav" class="default_nav" data-position="xiazai"><span>相关下载</span></li>
    			</ul>
-   		</div> -->
+   		</div>
    		<div class="product_introduction">
    			<div class="product_test">
-   				<h2>产品介绍</h2>
+   				<h2 id="jieshao">产品介绍</h2>
           <div class="introduction_ww">
    				<div class="introduction_LL">这里是内容，请根据实际需要修改。这里是内容，请根据实际需要修改。这里是内容，请根据实际需要修改。这里是内
 					容，请根据实际需要修改。这里是内容，请根据实际需要修改。这里是内容，请根据实际需要修改。这里是内容，请根
@@ -128,7 +128,7 @@
    			</div>
 
    			<div class="product_function">
-   				<h2>产品功能</h2>
+   				<h2 id="gongneng">产品功能</h2>
    				<p>这里是内容，请根据实际需要修改。这里是内容，请根据实际需要修改。这里是内容，请根据实际需要修改。这里是内
 					容，请根据实际需要修改。这里是内容，请根据实际需要修改。这里是内容，请根据实际需要修改。这里是内容，请根
 					据实际需要修改。这里是内容，请根据实际需要修改。这里是内容，请根据实际需要修改。这里是内容，请根据实际需
@@ -155,7 +155,7 @@
             <div class="product_characteristics">
    			<div class="product_video"><img src="" alt=""></div>
    			<div class="product_test">
-   				<h2>产品特性</h2>
+   				<h2 id="texing">产品特性</h2>
    				<p>这里是内容，请根据实际需要修改。这里是内容，请根据实际需要修改。这里是内容，请根据实际需要修改。这里是内
 					容，请根据实际需要修改。这里是内容，请根据实际需要修改。这里是内容，请根据实际需要修改。这里是内容，请根
 					据实际需要修改。这里是内容，请根据实际需要修改。这里是内容，请根据实际需要修改。这里是内容，请根据实际需
@@ -163,7 +163,7 @@
    			</div>
 
    		</div>
-   		<div class="product_download">
+   		<div id="xiazai" class="product_download">
    		    <h2 id="Related_downloads">相关下载</h2>
    			<div class="download_list">
    				<div class="downloas_left">
@@ -266,6 +266,26 @@
 	$("#up_arr").click(function(){
 		$("#nav_bb").slideUp("slow");
 	})
+  $(document).ready(function() {
+    $(window).scroll(function() {
+      // 检测导航距离顶部距离
+      if ($(document).scrollTop() >= 208) {
+        // 导航到达页面顶部时固定在顶部
+        $(".top_nav").addClass("nav_fixed")
+      } else {
+        // 导航向下脱离顶部时嵌入文档流中
+        $(".top_nav").removeClass("nav_fixed")
+      }
+    })
+    $("#fixed_nav li").click(function() {
+      var item = $(this).data("position");
+      $(this).addClass("nav_on");
+      $(this).siblings().removeClass("nav_on");
+      $('html, body').stop().animate({
+        scrollTop: $("#"+item).offset().top-40
+      }, 'slow', 'swing', 1000);
+    });
+  })
 
 
 
