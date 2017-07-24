@@ -5,6 +5,7 @@
 }
 .top {
 	width: 98%;
+	min-width: 1229px;
 	margin: 0 auto;
 	height: 49px;
 	overflow: hidden;
@@ -23,6 +24,7 @@
 }
 .phone {
   width: 24%;
+  min-width: 304px;
   margin-top: 12px;
  }
 .phone span {
