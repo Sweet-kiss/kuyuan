@@ -649,8 +649,18 @@
 }
 .top_nav {
 	overflow: hidden;
-	width: 98%;
-	margin: 0 auto;
+	margin: 0 10px;
+	background-color: #FFFFFF;
+}
+.top_nav.nav_fixed {
+	width: 73%;
+	position: fixed;
+	left: 22%;
+	top: 0;
+	margin-left: 14px;
+}
+.top_nav.nav_fixed + .product_introduction {
+	padding-top: 40px;
 }
 .top_nav ul li {
 	float: left;
@@ -662,7 +672,7 @@
 .nav_on {
 	background-color: #fa0215;
 }
-.nav_on a {
+.nav_on span {
 	display: block;
     width: 26%;
     font-size: 14px;
@@ -683,7 +693,7 @@
    height: 40px;
 	line-height: 40px;
 }
-.top_nav ul li:hover a {
+.top_nav ul li:hover span {
    display: block;
     width: 26%;
 	margin: 5px auto;
