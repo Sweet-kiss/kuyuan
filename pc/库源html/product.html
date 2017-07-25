@@ -11,7 +11,7 @@
 <body>
 <div class="prod_dwa">
 <!-- top -->
- <div class="top_w">
+ <div class="top_w top_gd">
   <div class="top comwith_t">
     <div class="logo_w fl"><img src="./images/logo.png" alt=""></div>
     <div class="phone fl">
@@ -30,8 +30,8 @@
         <ul>
           <li><a href="./home.html"><img class="home" src="./images/home.png" alt=""></a></li>
           <li id="profuct_w" class="red_h">产品中心<img class="more" src="./images/arrow.png" alt=""></li>
-          <li><a href="#">培训事业部</a></li>
-          <li><a href="#">论坛</a></li>
+          <li><a href="http://www.pcb3.com/index.asp" target="_blank">培训事业部</a></li>
+          <li><a href="http://www.pspice.com.cn/" target="_blank">论坛</a></li>
           <li><a href="./about_us.html">关于我们</a></li>
         </ul>
         <div class="change-language">
@@ -42,8 +42,8 @@
       </div>
     </div>
   </div>
-</div>
- <!-- 下拉面板begain -->
+
+   <!-- 下拉面板begain -->
 <div id="nav_bb" class="nav-wrapper" style="display: none;">
   <ul class="nav-panel">
     <li><a href="./product.html">Allegro AMS Simulator</a></li>
@@ -59,16 +59,15 @@
     <li><a href="#">Speed2000</a></li>
   </ul>
   <div class="up_arr"><img id="up_arr" src="./images/up_arr.png" alt=""></div>
-</div>
+  </div>
 <!-- 下拉面板end -->
+  </div>
+</div>
 <!--  产品中心图 -->
 <div class="product_img add_PP">
    <h2>PRODUCT CENTER</h2>
-	<h5>产品中心</h5>
+  <h5>产品中心</h5>
 </div>
-
-</div>
-
 
 <div class="product_list_w comwith_t">
    	<div class="product_left">
@@ -304,7 +303,7 @@
       $(this).addClass("nav_on");
       $(this).siblings().removeClass("nav_on");
       $('html, body').stop().animate({
-        scrollTop: $("#"+item).offset().top-40
+        scrollTop: $("#"+item).offset().top-130
       }, 'slow', 'swing', 1000);
     });
   })

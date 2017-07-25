@@ -10,6 +10,11 @@
 	height: 49px;
 	overflow: hidden;
 }
+.top_gd {
+	position: fixed;
+	top:0px;
+	background-color: white;
+}
 .logo_w,.phone,.login_w {
 	float: left;
 }
@@ -569,6 +574,7 @@
 /*产品中心*/
 .product_img {
 	height: 140px;
+	margin-top: 94px;
 	background-color: red;
 	overflow: hidden;
 	min-width: 1200px;
@@ -658,7 +664,7 @@
 	width: 73%;
 	position: fixed;
 	left: 22%;
-	top: 0;
+	top: 94px;
 	margin-left: 14px;
 }
 .top_nav.nav_fixed + .product_introduction {
