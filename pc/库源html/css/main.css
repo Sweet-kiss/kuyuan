@@ -518,11 +518,15 @@
 	color: #fa060c;
 	font-size: 14px;
 }
+.text_us a:hover,.our_server ul li a:hover {
+	text-decoration: underline;
+}
 .text_us a i {
 	display: inline-block;
 	width: 18px;
 	vertical-align: top;
 	margin-left: 5px;
+	margin-top: -1px;
 }
 .text_us a i img {
 	width: 100%;
@@ -559,7 +563,12 @@
 	padding-top: 2px;
 }
 .link_img p span a {
+	display: inline-block;
+	margin-left: 9px;
 	color: #fa060c;
+}
+.link_img p span a:hover {
+	text-decoration: underline;
 }
 .link_img p i {
 	display: inline-block;
@@ -1270,4 +1279,10 @@
    font-size: 13px !important;
    margin-top: 3px !important;
    color: #69696a !important;
+}
+.tengxun {
+	margin-top: -2px;
+}
+.juLi {
+	margin-top: 0px;
 }
