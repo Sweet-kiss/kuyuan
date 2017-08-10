@@ -445,10 +445,9 @@
 .new_top {
 	overflow: hidden;
 	margin-top: 20px;
-	}
-.news_data,.news_title {
-  float: left;
+	display: flex;
 }
+
 .news_data {
 	width: 48px;
 	height: 53px;
@@ -456,6 +455,7 @@
 	border: #bababb solid 1px;
 }
 .news_data h2 {
+	flex:1;
 	font-size: 16px;
 	font-weight: bold;
 	color: #fc0518;
