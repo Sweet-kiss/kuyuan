@@ -552,7 +552,7 @@
 	margin-right: 5px;
 }
 .link_img p {
-	font-size: 15px;
+	font-size: 13px;
 	color: #5c5b5b;
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -1285,4 +1285,14 @@
 }
 .juLi {
 	margin-top: 0px;
+}
+.downloas_right a {
+	display: inline-block;
+	width: 50%;
+    background-color: red;
+    font-size: 13px;
+    border: none;
+    height: 38px;
+    line-height: 38px;
+    color: white;
 }
